@@ -1,3 +1,9 @@
+# revision 21906
+# category Package
+# catalog-ctan /info/translations/etoolbox/de
+# catalog-date 2011-03-30 20:15:49 +0200
+# catalog-license lppl
+# catalog-version 1
 Name:		texlive-etoolbox-de
 Version:	1
 Release:	1
@@ -20,6 +26,7 @@ The version translated is 2.1 or 2011-01-03.
 %files
 %doc %{_texmfdistdir}/doc/latex/etoolbox-de/etoolbox-DE.pdf
 %doc %{_texmfdistdir}/doc/latex/etoolbox-de/etoolbox-DE.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -30,3 +37,5 @@ The version translated is 2.1 or 2011-01-03.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
