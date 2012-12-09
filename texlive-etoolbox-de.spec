@@ -34,3 +34,17 @@ The version translated is 2.1 or 2011-01-03.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-2
++ Revision: 751643
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-1
++ Revision: 718381
+- texlive-etoolbox-de
+- texlive-etoolbox-de
+- texlive-etoolbox-de
+- texlive-etoolbox-de
+
