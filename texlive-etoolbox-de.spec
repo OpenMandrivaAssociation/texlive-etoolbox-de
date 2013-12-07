@@ -6,7 +6,7 @@
 # catalog-version 1
 Name:		texlive-etoolbox-de
 Version:	1
-Release:	4
+Release:	5
 Summary:	German translation of documentation of etoolbox
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/etoolbox/de
