@@ -1,6 +1,6 @@
 Name:		texlive-etoolbox-de
 Version:	21906
-Release:	1
+Release:	2
 Summary:	German translation of documentation of etoolbox
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/etoolbox/de
