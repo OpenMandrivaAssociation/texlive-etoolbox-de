@@ -3,7 +3,7 @@ Version:	21906
 Release:	2
 Summary:	German translation of documentation of etoolbox
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/etoolbox/de
+URL:		https://www.ctan.org/tex-archive/info/translations/etoolbox/de
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoolbox-de.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoolbox-de.doc.r%{version}.tar.xz
